@@ -1,0 +1,68 @@
+body{
+    padding: 0;
+    margin: 0;
+    @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap')
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+    background-color: #0c91b3;
+    color: white;
+}
+
+  
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #060a1a;
+    color: white;
+    height: 45px;
+    padding: 3px;
+}
+.navbar h2{
+    padding-right: 1000px;
+}
+.box{
+    border:3px solid black;
+    max-width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+
+}
+.jokes{
+    display: flex;
+    justify-content: center;
+}
+.jokes button{
+    font-size: 16px;
+    border-radius:50px;
+    width: 200px;
+    height: 45px;
+    margin-top: 30px;
+    border: none;
+    background-color: #060a1a;
+    color: white;
+}
+.jokes button:hover{
+    background-color: white;
+    color: black;
+}
+.main{
+    color: white;
+    font-weight: bold;
+    /* border: solid #022F34; */
+    display: flex;
+    max-width: 50%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    height: 290px;
+    margin-top: 25px;
+
+}
